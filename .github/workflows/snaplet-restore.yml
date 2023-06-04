@@ -1,7 +1,6 @@
 name: Snaplet Restore
 on: 
-    schedule:
-      - cron: '* * * * 5'
+   
     workflow_dispatch:  
 jobs:
   snaplet-restore-snapshot:
